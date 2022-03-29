@@ -1,0 +1,76 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+
+}
+html{
+    background: #FFFFFF ;
+    font-family: 'Kodchasan';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 22px;
+    line-height: 160%;
+    color: rgba(0, 0, 0, 0.7);
+
+}
+.conteiner{
+    max-width: 1530px;
+    margin: 0 auto;
+    padding: 15px;
+
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 29px;
+    margin-bottom: 31px;
+}
+.navigation{
+    display: flex;
+    list-style: none;
+
+}
+.navigation a{
+    text-decoration: none;
+    color: rgba(0, 0, 0, 1);
+    margin-left: 42px;
+}
+.background{
+    display: flex;
+    background-image: url(./yellowfon);
+}
+.finger_text{
+    font-size: 100px;
+    line-height: 130px;
+}
+.fing_main{
+    display: flex;
+    flex-direction: column;
+    padding-top: 162px;
+    padding-left: 78px;
+}
+.bee{
+    height: 860px;
+	padding-top: 124px;
+}
+.buttons{
+    display: flex;
+	justify-content: space-between;
+	max-width: 420px;
+	padding-top: 106px;
+}
+.button_buy{
+    padding: 18px 50px;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 160%;
+    color
+}
+.button_learn{
+    padding: 18px 50px;
+    font-size: 18px;
+    line-height: 160%;
+    border: 1px solid black;
+}
